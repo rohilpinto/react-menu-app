@@ -1,0 +1,67 @@
+@use './scss/Fonts.scss';
+@use './scss/Variables.scss' as *;
+
+@use './scss/components/Card.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin buttonReset {
+  border: none;
+
+  padding: 10px;
+  margin: 2px;
+  font-family: $font-fam;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: $font-fam;
+  background: $main-bg-clr;
+}
+
+img {
+  width: 200px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  // border: 2px solid #000;
+  align-items: center;
+  margin-bottom: 30px;
+
+  .title-container {
+    margin-top: 50px;
+  }
+
+  .nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    text-align: center;
+
+    .btn {
+      button {
+        @include buttonReset;
+        background: $navigation-bg-clr;
+        border-radius: $navigation-radius;
+        width: 140px;
+        color: $navigation-txt-clr;
+
+        &:hover {
+          background: darken($navigation-bg-clr, 5%);
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+// .grid-container {
+//   margin-top: 20px !important;
+// }

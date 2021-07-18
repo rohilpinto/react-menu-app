@@ -1,0 +1,67 @@
+@use '../Variables.scss' as *;
+
+.card-container {
+  max-width: 700px;
+
+  padding: 20px;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  flex-wrap: nowrap;
+  background: rgba(95, 95, 95, 0.39);
+  margin: auto;
+  border-radius: $card-radius;
+  // padding: 20px;
+
+  .image {
+    width: 200px;
+    display: flex;
+    align-items: center;
+
+    img {
+      border-radius: $card-radius;
+      object-fit: cover;
+    }
+  }
+  .info {
+    width: 500px;
+    margin-left: 10px;
+    color: white;
+    .info-title-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: solid 4px rgba(0, 0, 0, 0.322);
+      margin-bottom: 5px;
+    }
+
+    .info-description-container {
+      // border: 1px solid #000;
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-container {
+    max-width: 800px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    background: rgba(95, 95, 95, 0.39);
+    margin: auto;
+    border-radius: $card-radius;
+    // padding: 20px;
+  }
+}
