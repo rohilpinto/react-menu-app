@@ -1,10 +1,9 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
+// import Grid from "@material-ui/core/Grid";
 
 const Card = ({ data, children }) => {
   // return <Grid item>{data.title}</Grid>;
 
-  console.log(data.image);
   return (
     <div className="card-container">
       <div className="image">

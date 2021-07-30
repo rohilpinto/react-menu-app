@@ -1,4 +1,11 @@
 import pancake from "../src/assets/pancake.jpg";
+import dinnerDouble from "../src/assets/dinner-double.jpg";
+import godzillaMilkshake from "../src/assets/godzilla-milkshake.jpg";
+import countryDelight from "../src/assets/country-delight.jpg";
+import eggAttack from "../src/assets/egg-attack.jpg";
+import oreoDream from "../src/assets/oreo-dream.png";
+import baconOverflow from "../src/assets/bacon-overflow.jpeg";
+import americanClassic from "../src/assets/american-classic.jpeg";
 
 const data = [
   {
@@ -14,7 +21,7 @@ const data = [
     title: "Diner Double",
     price: "$15",
     description: "vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats",
-    image: pancake,
+    image: dinnerDouble,
     catagory: "lunch",
   },
   {
@@ -22,7 +29,7 @@ const data = [
     title: "Godzilla Milkshake",
     price: "$15",
     description: "ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.",
-    image: pancake,
+    image: godzillaMilkshake,
     catagory: "shakes",
   },
   {
@@ -30,7 +37,7 @@ const data = [
     title: "Country Delight",
     price: "$15",
     description: "Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut",
-    image: pancake,
+    image: countryDelight,
     catagory: "breakfast",
   },
   {
@@ -38,7 +45,7 @@ const data = [
     title: "Egg Attack	",
     price: "$15",
     description: "franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up",
-    image: pancake,
+    image: eggAttack,
     catagory: "lunch",
   },
   {
@@ -46,7 +53,7 @@ const data = [
     title: "Oreo Dream",
     price: "$15",
     description: "Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday",
-    image: pancake,
+    image: oreoDream,
     catagory: "shakes",
   },
   {
@@ -54,7 +61,7 @@ const data = [
     title: "Bacon Overflow",
     price: "$15",
     description: "carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird",
-    image: pancake,
+    image: baconOverflow,
     catagory: "breakfast",
   },
   {
@@ -62,16 +69,8 @@ const data = [
     title: "American Classic",
     price: "$15",
     description: "on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut",
-    image: pancake,
+    image: americanClassic,
     catagory: "lunch",
-  },
-  {
-    id: "9",
-    title: "Quarantine Buddy",
-    price: "$15",
-    description: "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.",
-    image: pancake,
-    catagory: "shakes",
   },
 ];
 
