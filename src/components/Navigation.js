@@ -1,15 +1,15 @@
 import React from "react";
 // import NavigationItems from "./NavigationItems";
-import data from "../Data";
+import Data from "../Data";
 
 const Navigation = ({ filteredData, setFilteredData }) => {
   const filterItems = (items) => {
     console.log(items);
 
     if (items === "all") {
-      setFilteredData(data);
+      setFilteredData(Data);
     } else {
-      let newFilter = data.filter((obj) => obj.catagory === items);
+      let newFilter = Data.filter((obj) => obj.catagory === items);
       setFilteredData(newFilter);
     }
 
@@ -26,7 +26,7 @@ const Navigation = ({ filteredData, setFilteredData }) => {
 
   // const getMenuButtons = data.filter((obj) => obj.catagory);
 
-  const fltrdNavItems = Array.from(new Set(data.map((obj) => obj.catagory)));
+  const fltrdNavItems = Array.from(new Set(Data.map((obj) => obj.catagory)));
 
   console.log(fltrdNavItems);
 

@@ -3,13 +3,13 @@ import "./App.scss";
 
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
-import data from "./Data.js";
+import Data from "./Data.js";
 
 import Card from "./components/Card";
 import Navigation from "./components/Navigation";
 
 const App = () => {
-  const [filteredData, setFilteredData] = useState(data);
+  const [filteredData, setFilteredData] = useState(Data);
 
   // console.log(filteredData);
 
