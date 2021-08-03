@@ -1,6 +1,6 @@
 import React from "react";
 // import NavigationItems from "./NavigationItems";
-import Data from "../Data";
+import Data from "../data";
 
 const Navigation = ({ filteredData, setFilteredData }) => {
   const filterItems = (items) => {

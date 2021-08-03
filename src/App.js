@@ -3,7 +3,7 @@ import "./App.scss";
 
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
-import Data from "./Data.js";
+import Data from "./data.js";
 
 import Card from "./components/Card";
 import Navigation from "./components/Navigation";
