@@ -1,16 +1,3 @@
-const NavigationItems = [
-  {
-    title: "ALL",
-  },
-  {
-    title: "BreakFast",
-  },
-  {
-    title: "Lunch",
-  },
-  {
-    title: "Shakes",
-  },
-];
+const NavigationItems = ["all", "breakfast", "lunch", "shakes"];
 
 export default NavigationItems;

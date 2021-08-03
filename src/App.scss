@@ -25,6 +25,7 @@ body {
 
 img {
   width: 200px;
+  user-select: none;
 }
 
 .nav-container {
@@ -52,6 +53,8 @@ img {
         border-radius: $navigation-radius;
         width: 140px;
         color: $navigation-txt-clr;
+        text-transform: capitalize;
+        user-select: none;
 
         &:hover {
           background: darken($navigation-bg-clr, 5%);

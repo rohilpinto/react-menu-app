@@ -14,6 +14,7 @@ const data = [
     price: "$15",
     description: "I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed",
     image: pancake,
+    // catagory: ["breakfast", "all"],
     catagory: "breakfast",
   },
   {
