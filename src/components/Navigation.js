@@ -34,7 +34,9 @@ const Navigation = ({ filteredData, setFilteredData }) => {
     <React.Fragment>
       <button onClick={() => filterItems("all")}>All</button>
       {fltrdNavItems.map((items, index) => (
-        <button onClick={() => filterItems(items)}>{items}</button>
+        <button key={index} onClick={() => filterItems(items)}>
+          {items}
+        </button>
       ))}
     </React.Fragment>
   );
