@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import NavigationItems from "./NavigationItems";
+import React from "react";
+// import NavigationItems from "./NavigationItems";
 import data from "../Data";
 
 const Navigation = ({ filteredData, setFilteredData }) => {
   const filterItems = (items) => {
     console.log(items);
 
-    if (items == "all") {
+    if (items === "all") {
       setFilteredData(data);
     } else {
       let newFilter = data.filter((obj) => obj.catagory === items);
