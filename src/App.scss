@@ -55,6 +55,7 @@ img {
         color: $navigation-txt-clr;
         text-transform: capitalize;
         user-select: none;
+        cursor: pointer;
 
         &:hover {
           background: darken($navigation-bg-clr, 5%);
